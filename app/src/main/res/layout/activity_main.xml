@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Top App Bar -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/top_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorSurface"
+        android:elevation="4dp"
+        app:logo="@drawable/ic_people_crowd"
+        app:menu="@menu/top_app_bar_menu"
+        app:title="@string/app_name"
+        app:titleTextColor="?attr/colorOnSurface" />
+
+    <!-- Offline Banner -->
+    <LinearLayout
+        android:id="@+id/banner_offline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/status_amber_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:contentDescription="@string/offline_label"
+            android:src="@drawable/ic_warning" />
+
+        <TextView
+            android:id="@+id/tv_offline_message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:text="@string/offline_label"
+            android:textColor="@color/status_amber"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Fragment Container -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Bottom Navigation View -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorSurface"
+        app:itemIconTint="@color/accent_cyan"
+        app:itemTextColor="@color/text_primary_dark"
+        app:menu="@menu/bottom_nav_menu" />
+
+</LinearLayout>

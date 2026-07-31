@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">REC Crowd Monitor</string>
+    <string name="college_name">Rajalakshmi Engineering College</string>
+    
+    <!-- Navigation Tabs -->
+    <string name="tab_live_status">Live Status</string>
+    <string name="tab_support">Support</string>
+
+    <!-- Location Names -->
+    <string name="loc_rec_cafe">REC Cafe</string>
+    <string name="loc_hut_cafe">Hut Cafe</string>
+    <string name="loc_rec_mart">REC Mart</string>
+
+    <!-- Status Badges -->
+    <string name="status_low">Low Crowd</string>
+    <string name="status_moderate">Moderate Crowd</string>
+    <string name="status_high">High Crowd</string>
+
+    <!-- Card Details -->
+    <string name="occupancy_format">%1$d%% Full</string>
+    <string name="last_updated_format">Last updated: %1$s</string>
+    <string name="pull_to_refresh">Pull down to refresh</string>
+    <string name="offline_label">Offline - showing last known data</string>
+
+    <!-- Sorting -->
+    <string name="sort_default">Default Order</string>
+    <string name="sort_least_crowded">Least Crowded First</string>
+    <string name="sort_toast_default">Showing Default Order</string>
+    <string name="sort_toast_least_crowded">Showing Least Crowded First</string>
+
+    <!-- Share -->
+    <string name="share_title">Share Crowd Status</string>
+    <string name="share_subject">REC Campus Live Crowd Status</string>
+    <string name="share_header">📊 REC Campus Live Crowd Status:\n\n</string>
+    <string name="share_item_format">• %1$s: %2$d%% Full (%3$s)\n</string>
+    <string name="share_footer">\nShared via REC Crowd Monitor</string>
+
+    <!-- Banners / Recommendations -->
+    <string name="banner_suggestion">%1$s is crowded (%2$d%%) — %3$s is currently %4$s (%5$d%%)!</string>
+    
+    <!-- Error / Empty State -->
+    <string name="error_loading">Unable to fetch live crowd data. Please check connection and try again.</string>
+    <string name="retry">Retry</string>
+
+    <!-- Support Screen -->
+    <string name="support_heading">Need Help? Get in Touch</string>
+    <string name="support_subheading">For any queries, feedback, or issues with REC Crowd Monitor, reach out to us directly.</string>
+    <string name="btn_contact_email">Contact via Email</string>
+    <string name="email_address">vijayakumar.arunachalam2007@gmail.com</string>
+    <string name="email_subject">REC Crowd Monitor - Support Query</string>
+    <string name="email_chooser_title">Send Email via…</string>
+    <string name="no_email_app">No email app found. Please install a mail client.</string>
+
+    <!-- About Section -->
+    <string name="about_heading">About REC Crowd Monitor</string>
+    <string name="about_version">Version 1.0 (Build 100)</string>
+    <string name="about_description">Real-time crowd monitoring for smarter campus breaks at Rajalakshmi Engineering College.</string>
+
+    <!-- Theme Section -->
+    <string name="theme_section_title">App Appearance</string>
+    <string name="theme_dark_mode">Dark Theme</string>
+    <string name="theme_dark_mode_desc">Toggle between Dark Navy (#0B1220) and Light Theme</string>
+
+    <!-- Footer -->
+    <string name="footer_credit">Designed and Created by Vijaya Kumar</string>
+</resources>

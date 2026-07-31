@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_live_status"
+        android:icon="@drawable/ic_live_status"
+        android:title="@string/tab_live_status" />
+    <item
+        android:id="@+id/nav_support"
+        android:icon="@drawable/ic_support"
+        android:title="@string/tab_support" />
+</menu>

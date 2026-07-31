@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Primary Theme - Dark Navy with Cyan Accent -->
+    <style name="Theme.RECCrowdMonitor" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/accent_cyan</item>
+        <item name="colorOnPrimary">@color/bg_navy_dark</item>
+        <item name="colorPrimaryContainer">@color/accent_cyan_light_bg</item>
+        <item name="colorOnPrimaryContainer">@color/accent_cyan</item>
+        
+        <!-- Secondary / Surface -->
+        <item name="colorSecondary">@color/accent_cyan</item>
+        <item name="colorOnSecondary">@color/bg_navy_dark</item>
+        <item name="android:colorBackground">@color/bg_navy_dark</item>
+        <item name="colorSurface">@color/surface_navy_dark</item>
+        <item name="colorOnSurface">@color/text_primary_dark</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary_dark</item>
+
+        <!-- Status & Navigation bar colors -->
+        <item name="android:statusBarColor">@color/bg_navy_dark</item>
+        <item name="android:navigationBarColor">@color/surface_navy_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Base fallback theme alias for template compatibility -->
+    <style name="Theme.MyApplication" parent="Theme.RECCrowdMonitor" />
+
+    <!-- Splash Theme -->
+    <style name="Theme.RECCrowdMonitor.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/bg_navy_dark</item>
+        <item name="android:statusBarColor">@color/bg_navy_dark</item>
+        <item name="android:navigationBarColor">@color/bg_navy_dark</item>
+    </style>
+</resources>
