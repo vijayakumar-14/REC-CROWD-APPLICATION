@@ -30,6 +30,10 @@ Built using **Google AI Studio** and compiled into an installable APK via **Andr
   <em>Left: Live Status tab showing real-time crowd levels at REC Cafe, Hut Cafe, and REC Mart. Right: Support tab.</em>
 </p>
 
+<p align="center">
+  <em>Note: The crowd data shown above is simulated/mock data for demonstration purposes. Live data will be reflected once the physical sensors are installed and deployed at each location.</em>
+</p>
+
 ---
 
 ## ✨ Features
