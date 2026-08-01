@@ -1,6 +1,6 @@
 # REC Crowd Monitor — Android Application
 
-**Live crowd status for REC Café, Hut Café, and REC Mart — right on your phone.**
+**Live crowd status for REC Cafe, Hut Cafe, and REC Mart — right on your phone.**
 
 Built for the DEVS Club IoT Task Evaluation, Rajalakshmi Engineering College.
 
