@@ -18,6 +18,20 @@ Built using **Google AI Studio** and compiled into an installable APK via **Andr
 
 ---
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/live_status.png" alt="Live Status Screen" width="260"/>
+  &nbsp;&nbsp;
+  <img src="screenshots/support_tab.png" alt="Support Tab" width="260"/>
+</p>
+
+<p align="center">
+  <em>Left: Live Status tab showing real-time crowd levels at REC Cafe, Hut Cafe, and REC Mart. Right: Support tab.</em>
+</p>
+
+---
+
 ## ✨ Features
 
 - **Live Status tab** — real-time color-coded crowd status (🟢 Low / 🟡 Moderate / 🔴 High) for REC Cafe, Hut Cafe, and REC Mart, with occupancy percentage and last-updated timestamp.
